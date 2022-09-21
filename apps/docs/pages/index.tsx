@@ -1,10 +1,5 @@
-import { Button } from "ui";
+import { add } from "@mattpocockuk/maths";
 
 export default function Docs() {
-  return (
-    <div>
-      <h1>Docs</h1>
-      <Button />
-    </div>
-  );
+  return <div>{add(1, 2)}</div>;
 }

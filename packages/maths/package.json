@@ -1,0 +1,15 @@
+{
+  "name": "@mattpocockuk/maths",
+  "version": "0.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsup src/index.ts --format cjs --dts",
+    "dev": "npm run build --watch"
+  },
+  "devDependencies": {
+    "tsup": "^6.2.3",
+    "typescript": "latest"
+  }
+}
